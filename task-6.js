@@ -1,6 +1,6 @@
 const inputEl = document.querySelector("#validation-input");
 const validation = function () {
-  if (inputEl.value.length > inputEl.dataset.length) {
+  if (inputEl.value.length >= inputEl.dataset.length) {
     if (!inputEl.classList.contains("valid")) {
       inputEl.classList.add("valid");
       inputEl.classList.remove("invalid");
