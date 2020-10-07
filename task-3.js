@@ -24,7 +24,6 @@ images.map((el) => {
 });
 const imgList = document.querySelector("#gallery");
 const item = imgList.querySelectorAll("li img");
-console.log(item);
 imgList.style.display = "flex";
 imgList.style.justifyContent = "space-between";
 Array.from(item).map((el) => (el.style.width = "400px"));

@@ -2,8 +2,8 @@ const valueEl = document.querySelector("#value");
 let counterValue = 0;
 
 const increment = function () {
-  valueEl.textContent = counterValue;
   counterValue += 1;
+  valueEl.textContent = counterValue;
 };
 const decrement = function () {
   counterValue -= 1;
